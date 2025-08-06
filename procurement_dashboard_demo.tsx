@@ -152,55 +152,320 @@ const vendorDatabase = [
     lastOrder: "2024-07-25",
     totalOrders: 19,
     totalSpent: 8550
+  },
+  // California DGS Certified Small and Medium Businesses
+  {
+    id: 7,
+    name: "Golden State Construction Services",
+    category: "Construction & Public Works",
+    businessType: "Small Business",
+    location: "Sacramento, CA",
+    distance: 15.2,
+    rating: 4.8,
+    reviewCount: 312,
+    phone: "(916) 442-8200",
+    email: "contracts@goldenstateconstruction.com",
+    website: "www.goldenstateconstruction.com",
+    specialties: ["Public Works", "Infrastructure", "Green Building", "ADA Compliance"],
+    certifications: ["CA DGS SB Certified", "CA DGS SB-PW Certified", "LEED Certified"],
+    employeeCount: 45,
+    annualRevenue: 8500000,
+    deliveryRadius: 150,
+    minimumOrder: 5000,
+    avgOrderValue: 125000,
+    onTimeRate: 95,
+    qualityScore: 4.7,
+    lastOrder: "2024-08-05",
+    totalOrders: 18,
+    totalSpent: 2250000,
+    dgsContractId: "DGS-2024-001"
+  },
+  {
+    id: 8,
+    name: "VetTech Solutions LLC",
+    category: "Technology Services",
+    businessType: "Disabled Veteran Business",
+    location: "Los Angeles, CA",
+    distance: 285.4,
+    rating: 4.9,
+    reviewCount: 187,
+    phone: "(213) 555-0199",
+    email: "info@vettechsolutions.com",
+    website: "www.vettechsolutions.com",
+    specialties: ["Cybersecurity", "Cloud Services", "IT Infrastructure", "Software Development"],
+    certifications: ["CA DGS DVBE Certified", "NIST Cybersecurity", "Microsoft Gold Partner"],
+    employeeCount: 22,
+    annualRevenue: 3200000,
+    deliveryRadius: 500,
+    minimumOrder: 2500,
+    avgOrderValue: 45000,
+    onTimeRate: 98,
+    qualityScore: 4.8,
+    lastOrder: "2024-08-10",
+    totalOrders: 28,
+    totalSpent: 1260000,
+    dgsContractId: "DGS-2024-002"
+  },
+  {
+    id: 9,
+    name: "Bay Area Office Supplies Co.",
+    category: "Office Supplies",
+    businessType: "Small Business",
+    location: "Oakland, CA",
+    distance: 380.1,
+    rating: 4.6,
+    reviewCount: 445,
+    phone: "(510) 891-5500",
+    email: "orders@bayareaoffice.com",
+    website: "www.bayareaofficesupplies.com",
+    specialties: ["Bulk Office Supplies", "Ergonomic Furniture", "Sustainable Products", "Same-Day Delivery"],
+    certifications: ["CA DGS SB Certified", "Green Business Certified", "WBE Certified"],
+    employeeCount: 35,
+    annualRevenue: 4200000,
+    deliveryRadius: 100,
+    minimumOrder: 150,
+    avgOrderValue: 1250,
+    onTimeRate: 94,
+    qualityScore: 4.5,
+    lastOrder: "2024-08-08",
+    totalOrders: 156,
+    totalSpent: 195000,
+    dgsContractId: "DGS-2024-003"
+  },
+  {
+    id: 10,
+    name: "Pacific Healthcare Supplies",
+    category: "Medical Supplies",
+    businessType: "Small Business",
+    location: "San Diego, CA",
+    distance: 245.8,
+    rating: 4.7,
+    reviewCount: 298,
+    phone: "(619) 234-7800",
+    email: "sales@pacifichealthcare.com",
+    website: "www.pacifichealthcaresupplies.com",
+    specialties: ["Medical Equipment", "PPE", "Laboratory Supplies", "Emergency Response"],
+    certifications: ["CA DGS SB Certified", "FDA Registered", "ISO 13485"],
+    employeeCount: 28,
+    annualRevenue: 5800000,
+    deliveryRadius: 200,
+    minimumOrder: 500,
+    avgOrderValue: 3200,
+    onTimeRate: 97,
+    qualityScore: 4.6,
+    lastOrder: "2024-08-12",
+    totalOrders: 89,
+    totalSpent: 284800,
+    dgsContractId: "DGS-2024-004"
+  },
+  {
+    id: 11,
+    name: "California Catering Collective",
+    category: "Food Services",
+    businessType: "Small Business",
+    location: "Fresno, CA",
+    distance: 210.3,
+    rating: 4.8,
+    reviewCount: 356,
+    phone: "(559) 441-2900",
+    email: "events@cacateringcollective.com",
+    website: "www.cacateringcollective.com",
+    specialties: ["State Events", "Large Scale Catering", "Sustainable Sourcing", "Cultural Cuisine"],
+    certifications: ["CA DGS SB Certified", "Certified Sustainable", "ServSafe Certified"],
+    employeeCount: 42,
+    annualRevenue: 6200000,
+    deliveryRadius: 300,
+    minimumOrder: 1000,
+    avgOrderValue: 8500,
+    onTimeRate: 96,
+    qualityScore: 4.7,
+    lastOrder: "2024-08-11",
+    totalOrders: 67,
+    totalSpent: 569500,
+    dgsContractId: "DGS-2024-005"
+  },
+  {
+    id: 12,
+    name: "EcoClean California",
+    category: "Cleaning Supplies",
+    businessType: "Small Business",
+    location: "San Jose, CA",
+    distance: 340.2,
+    rating: 4.5,
+    reviewCount: 223,
+    phone: "(408) 287-4400",
+    email: "info@ecocleanca.com",
+    website: "www.ecocleancalifornia.com",
+    specialties: ["Green Cleaning Products", "Bulk Supplies", "Custom Formulations", "Waste Reduction"],
+    certifications: ["CA DGS SB Certified", "EPA Safer Choice", "Green Seal Certified"],
+    employeeCount: 19,
+    annualRevenue: 2800000,
+    deliveryRadius: 150,
+    minimumOrder: 300,
+    avgOrderValue: 750,
+    onTimeRate: 92,
+    qualityScore: 4.4,
+    lastOrder: "2024-08-09",
+    totalOrders: 134,
+    totalSpent: 100500,
+    dgsContractId: "DGS-2024-006"
+  },
+  {
+    id: 13,
+    name: "Veteran Logistics Solutions",
+    category: "Transportation",
+    businessType: "Disabled Veteran Business",
+    location: "Riverside, CA",
+    distance: 420.5,
+    rating: 4.9,
+    reviewCount: 167,
+    phone: "(951) 788-3300",
+    email: "dispatch@vetlogistics.com",
+    website: "www.veteranlogistics.com",
+    specialties: ["Secure Transport", "Government Logistics", "Emergency Response", "Fleet Management"],
+    certifications: ["CA DGS DVBE Certified", "DOT Certified", "TSA Approved"],
+    employeeCount: 31,
+    annualRevenue: 4100000,
+    deliveryRadius: 500,
+    minimumOrder: 1000,
+    avgOrderValue: 5200,
+    onTimeRate: 99,
+    qualityScore: 4.8,
+    lastOrder: "2024-08-13",
+    totalOrders: 45,
+    totalSpent: 234000,
+    dgsContractId: "DGS-2024-007"
+  },
+  {
+    id: 14,
+    name: "Capital Region Facilities Management",
+    category: "Facilities & Maintenance",
+    businessType: "Medium Business",
+    location: "Sacramento, CA",
+    distance: 15.8,
+    rating: 4.6,
+    reviewCount: 289,
+    phone: "(916) 448-7200",
+    email: "services@capitalfacilities.com",
+    website: "www.capitalregionfacilities.com",
+    specialties: ["Building Maintenance", "HVAC Services", "Energy Management", "Emergency Repairs"],
+    certifications: ["CA DGS SB Certified", "Energy Star Partner", "Licensed Contractors"],
+    employeeCount: 78,
+    annualRevenue: 12500000,
+    deliveryRadius: 100,
+    minimumOrder: 2000,
+    avgOrderValue: 15000,
+    onTimeRate: 93,
+    qualityScore: 4.5,
+    lastOrder: "2024-08-14",
+    totalOrders: 92,
+    totalSpent: 1380000,
+    dgsContractId: "DGS-2024-008"
+  },
+  {
+    id: 15,
+    name: "Women-Owned Professional Services",
+    category: "Professional Services",
+    businessType: "Small Business",
+    location: "San Francisco, CA",
+    distance: 410.3,
+    rating: 4.8,
+    reviewCount: 234,
+    phone: "(415) 621-9900",
+    email: "contact@woprofessional.com",
+    website: "www.womenprofessionalservices.com",
+    specialties: ["Consulting", "Project Management", "Training", "Compliance"],
+    certifications: ["CA DGS SB Certified", "WBE Certified", "PMP Certified"],
+    employeeCount: 24,
+    annualRevenue: 3600000,
+    deliveryRadius: 200,
+    minimumOrder: 1500,
+    avgOrderValue: 12000,
+    onTimeRate: 97,
+    qualityScore: 4.7,
+    lastOrder: "2024-08-07",
+    totalOrders: 38,
+    totalSpent: 456000,
+    dgsContractId: "DGS-2024-009"
   }
 ];
 
 const categoryData = [
-  { name: "Office Supplies", totalSpend: 2800000, smbSpend: 285000, smbPercentage: 10.2, vendorCount: 8, avgOrder: 850 },
-  { name: "Food Services", totalSpend: 8200000, smbSpend: 1640000, smbPercentage: 20.0, vendorCount: 12, avgOrder: 2400 },
-  { name: "Facilities & Maintenance", totalSpend: 5100000, smbSpend: 2040000, smbPercentage: 40.0, vendorCount: 15, avgOrder: 1200 },
-  { name: "Transportation", totalSpend: 1200000, smbSpend: 480000, smbPercentage: 40.0, vendorCount: 6, avgOrder: 680 },
-  { name: "Technology Services", totalSpend: 3400000, smbSpend: 340000, smbPercentage: 10.0, vendorCount: 4, avgOrder: 1200 },
-  { name: "Cleaning Supplies", totalSpend: 800000, smbSpend: 320000, smbPercentage: 40.0, vendorCount: 5, avgOrder: 450 }
+  { name: "Office Supplies", totalSpend: 2800000, smbSpend: 485000, smbPercentage: 17.3, vendorCount: 12, avgOrder: 1050, dgsContracts: 3, dvbeSpend: 85000 },
+  { name: "Food Services", totalSpend: 8200000, smbSpend: 2050000, smbPercentage: 25.0, vendorCount: 18, avgOrder: 6200, dgsContracts: 2, dvbeSpend: 120000 },
+  { name: "Facilities & Maintenance", totalSpend: 5100000, smbSpend: 2420000, smbPercentage: 47.5, vendorCount: 22, avgOrder: 12500, dgsContracts: 2, dvbeSpend: 180000 },
+  { name: "Transportation", totalSpend: 1200000, smbSpend: 468000, smbPercentage: 39.0, vendorCount: 8, avgOrder: 5200, dgsContracts: 2, dvbeSpend: 234000 },
+  { name: "Technology Services", totalSpend: 3400000, smbSpend: 1260000, smbPercentage: 37.1, vendorCount: 6, avgOrder: 45000, dgsContracts: 1, dvbeSpend: 1260000 },
+  { name: "Cleaning Supplies", totalSpend: 800000, smbSpend: 420500, smbPercentage: 52.6, vendorCount: 8, avgOrder: 750, dgsContracts: 1, dvbeSpend: 0 },
+  { name: "Construction & Public Works", totalSpend: 15200000, smbSpend: 4560000, smbPercentage: 30.0, vendorCount: 14, avgOrder: 125000, dgsContracts: 1, dvbeSpend: 0 },
+  { name: "Medical Supplies", totalSpend: 2400000, smbSpend: 600000, smbPercentage: 25.0, vendorCount: 5, avgOrder: 3200, dgsContracts: 1, dvbeSpend: 0 },
+  { name: "Professional Services", totalSpend: 4800000, smbSpend: 1200000, smbPercentage: 25.0, vendorCount: 9, avgOrder: 12000, dgsContracts: 1, dvbeSpend: 0 }
 ];
 
 const spendingTrends = [
-  { month: 'Jan', smbSpending: 380000, totalSpending: 1800000, smbPercentage: 21.1 },
-  { month: 'Feb', smbSpending: 420000, totalSpending: 1900000, smbPercentage: 22.1 },
-  { month: 'Mar', smbSpending: 485000, totalSpending: 2100000, smbPercentage: 23.1 },
-  { month: 'Apr', smbSpending: 520000, totalSpending: 2200000, smbPercentage: 23.6 },
-  { month: 'May', smbSpending: 580000, totalSpending: 2400000, smbPercentage: 24.2 },
-  { month: 'Jun', smbSpending: 640000, totalSpending: 2500000, smbPercentage: 25.6 },
-  { month: 'Jul', smbSpending: 720000, totalSpending: 2600000, smbPercentage: 27.7 }
+  { month: 'Jan', smbSpending: 3200000, totalSpending: 14800000, smbPercentage: 21.6, dvbeSpending: 380000, dvbePercentage: 2.6, dgsContracts: 12 },
+  { month: 'Feb', smbSpending: 3450000, totalSpending: 15200000, smbPercentage: 22.7, dvbeSpending: 420000, dvbePercentage: 2.8, dgsContracts: 14 },
+  { month: 'Mar', smbSpending: 3680000, totalSpending: 15600000, smbPercentage: 23.6, dvbeSpending: 465000, dvbePercentage: 3.0, dgsContracts: 16 },
+  { month: 'Apr', smbSpending: 3850000, totalSpending: 16100000, smbPercentage: 23.9, dvbeSpending: 485000, dvbePercentage: 3.0, dgsContracts: 17 },
+  { month: 'May', smbSpending: 4120000, totalSpending: 16800000, smbPercentage: 24.5, dvbeSpending: 505000, dvbePercentage: 3.0, dgsContracts: 19 },
+  { month: 'Jun', smbSpending: 4350000, totalSpending: 17400000, smbPercentage: 25.0, dvbeSpending: 522000, dvbePercentage: 3.0, dgsContracts: 21 },
+  { month: 'Jul', smbSpending: 4580000, totalSpending: 18200000, smbPercentage: 25.2, dvbeSpending: 546000, dvbePercentage: 3.0, dgsContracts: 23 }
 ];
 
 const aiRecommendations = [
   {
+    type: "certification",
+    title: "California DGS SB Certification Opportunity",
+    content: "5 high-performing vendors in your network qualify for California DGS Small Business certification. This could unlock access to $18M+ in state contracts with 5% bid preference.",
+    confidence: 0.94,
+    action: "Guide vendors through DGS SB certification process",
+    savings: 32000,
+    category: "Certification Support"
+  },
+  {
     type: "discovery",
-    title: "New Vendor Opportunity",
-    content: "Found 3 high-rated office supply companies in SLO County with competitive pricing and same-day delivery.",
-    confidence: 0.92,
-    action: "Review Central Coast Office Solutions",
-    savings: 1200,
-    category: "Office Supplies"
+    title: "DVBE Vendor Gap Analysis",
+    content: "Technology Services category shows only 37% DVBE participation vs 3% state goal. Found 3 qualified DVBE vendors in cybersecurity and cloud services with strong ratings.",
+    confidence: 0.89,
+    action: "Engage VetTech Solutions and 2 other DVBE vendors",
+    savings: 145000,
+    category: "Technology Services"
   },
   {
     type: "optimization",
-    title: "Vendor Distribution Improvement",
-    content: "Food Services spending is 65% concentrated with top vendor. Recommend splitting between 4 local caterers.",
+    title: "DGS Contract Utilization Strategy",
+    content: "Construction & Public Works has $15.2M spending but only 30% SMB participation. Golden State Construction's SB-PW certification could increase utilization to meet 25% goal.",
+    confidence: 0.91,
+    action: "Leverage DGS SB-PW certified contractors",
+    savings: 285000,
+    category: "Construction & Public Works"
+  },
+  {
+    type: "compliance",
+    title: "AB 2019 Economic Equity Action Plan",
+    content: "Current spending aligns with AB 2019 requirements. Recommend developing 'Economic Equity First' action plans for underperforming categories to maintain compliance.",
     confidence: 0.87,
-    action: "Contact Farm Fresh SLO and 2 other caterers",
-    savings: 8400,
-    category: "Food Services"
+    action: "Implement Economic Equity First framework",
+    savings: 75000,
+    category: "Policy Compliance"
   },
   {
     type: "cost_savings",
-    title: "Bulk Order Optimization",
-    content: "Combining cleaning supply orders across departments could save $350/month with Green Clean Supplies.",
-    confidence: 0.84,
-    action: "Coordinate monthly bulk orders",
-    savings: 4200,
-    category: "Cleaning Supplies"
+    title: "Cal eProcure Integration Optimization",
+    content: "Centralizing procurement through Cal eProcure system could reduce administrative costs by 15% while improving vendor diversity tracking and compliance reporting.",
+    confidence: 0.82,
+    action: "Enhance Cal eProcure utilization",
+    savings: 128000,
+    category: "Process Improvement"
+  },
+  {
+    type: "discovery",
+    title: "Statewide Contract Opportunities",
+    content: "Multiple agencies show demand for Medical Supplies and Professional Services. Pacific Healthcare and Women-Owned Professional Services could serve broader state needs.",
+    confidence: 0.88,
+    action: "Pursue statewide contract opportunities",
+    savings: 210000,
+    category: "Multi-Agency Contracts"
   }
 ];
 
@@ -213,7 +478,7 @@ export default function CalPolyVendorPlatform() {
   const [chatMessages, setChatMessages] = useState([
     {
       type: 'assistant',
-      content: "Hi! I'm your Cal Poly vendor sourcing assistant. I can help you find small business vendors, calculate costs, and optimize your procurement strategy. What would you like to explore?",
+      content: "Hi! I'm your California DGS procurement assistant. I can help you find SB and DVBE certified vendors, calculate costs for state contracts, and ensure AB 2019 compliance. I have access to real-time Cal eProcure data and can guide you through DGS certification processes. What would you like to explore?",
       timestamp: new Date()
     }
   ]);
@@ -332,13 +597,20 @@ export default function CalPolyVendorPlatform() {
     <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
       <div className="flex justify-between items-start mb-4">
         <h3 className="font-semibold text-gray-800">{category.name}</h3>
-        <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-          category.smbPercentage >= 30 ? 'bg-green-100 text-green-800' :
-          category.smbPercentage >= 20 ? 'bg-yellow-100 text-yellow-800' :
-          'bg-red-100 text-red-800'
-        }`}>
-          {category.smbPercentage.toFixed(1)}% SMB
-        </span>
+        <div className="flex flex-col items-end space-y-1">
+          <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+            category.smbPercentage >= 25 ? 'bg-green-100 text-green-800' :
+            category.smbPercentage >= 20 ? 'bg-yellow-100 text-yellow-800' :
+            'bg-red-100 text-red-800'
+          }`}>
+            {category.smbPercentage.toFixed(1)}% SMB
+          </span>
+          {category.dgsContracts > 0 && (
+            <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">
+              {category.dgsContracts} DGS Contracts
+            </span>
+          )}
+        </div>
       </div>
       
       <div className="space-y-3">
@@ -355,6 +627,21 @@ export default function CalPolyVendorPlatform() {
           </div>
         </div>
         
+        {category.dvbeSpend > 0 && (
+          <div>
+            <div className="flex justify-between text-sm mb-1">
+              <span className="text-gray-600">DVBE Spending</span>
+              <span className="font-medium">${(category.dvbeSpend/1000).toFixed(0)}K</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-1">
+              <div 
+                className="bg-purple-500 h-1 rounded-full transition-all duration-500"
+                style={{ width: `${Math.min((category.dvbeSpend/category.totalSpend)*100, 100)}%` }}
+              ></div>
+            </div>
+          </div>
+        )}
+        
         <div className="grid grid-cols-2 gap-4 text-sm">
           <div>
             <span className="text-gray-500">SMB Vendors:</span>
@@ -362,7 +649,7 @@ export default function CalPolyVendorPlatform() {
           </div>
           <div>
             <span className="text-gray-500">Avg Order:</span>
-            <span className="ml-2 font-medium">${category.avgOrder}</span>
+            <span className="ml-2 font-medium">${category.avgOrder.toLocaleString()}</span>
           </div>
         </div>
       </div>
@@ -375,8 +662,8 @@ export default function CalPolyVendorPlatform() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">Cal Poly Small Business Vendor Platform</h1>
-              <p className="text-gray-600">AI-Powered Local Vendor Discovery & Cost Optimization</p>
+              <h1 className="text-2xl font-bold text-gray-900">California DGS Small Business Vendor Platform</h1>
+              <p className="text-gray-600">AI-Powered Local Vendor Discovery & Cost Optimization • Integrated with Cal eProcure</p>
             </div>
             <div className="flex items-center space-x-4">
               <div className="flex items-center space-x-2 bg-green-100 text-green-800 px-3 py-1 rounded-full">
@@ -465,11 +752,27 @@ export default function CalPolyVendorPlatform() {
                     <p className="text-3xl font-bold text-gray-900">{overallSMBPercentage.toFixed(1)}%</p>
                     <div className="flex items-center mt-2">
                       <TrendingUp size={16} className="text-green-500 mr-1" />
-                      <span className="text-sm text-green-600">Target: 60%</span>
+                      <span className="text-sm text-green-600">Goal: 25% (AB 2019)</span>
                     </div>
                   </div>
                   <div className="p-3 rounded-lg bg-purple-100">
                     <Building className="text-purple-600" size={24} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <p className="text-gray-600 text-sm font-medium">DVBE Spending</p>
+                    <p className="text-3xl font-bold text-gray-900">$1.9M</p>
+                    <div className="flex items-center mt-2">
+                      <TrendingUp size={16} className="text-green-500 mr-1" />
+                      <span className="text-sm text-green-600">Goal: 3% (AB 2019)</span>
+                    </div>
+                  </div>
+                  <div className="p-3 rounded-lg bg-orange-100">
+                    <Star className="text-orange-600" size={24} />
                   </div>
                 </div>
               </div>
@@ -544,7 +847,7 @@ export default function CalPolyVendorPlatform() {
                     <h4 className="font-semibold text-purple-800">AI Insight</h4>
                   </div>
                   <p className="text-purple-700 text-sm">
-                    Your vendor distribution improved 15% this month. Consider adding 2 more food service vendors to reach optimal balance.
+                    Your agency is meeting the 25% SB goal! Focus on increasing DVBE participation in Technology Services to reach the 3% target. Consider engaging VetTech Solutions for cybersecurity needs.
                   </p>
                 </div>
               </div>
@@ -582,10 +885,14 @@ export default function CalPolyVendorPlatform() {
                   >
                     <option value="all">All Categories</option>
                     <option value="Food Services">Food Services</option>
+                    <option value="Office Supplies">Office Supplies</option>
                     <option value="Facilities & Maintenance">Facilities & Maintenance</option>
                     <option value="Transportation">Transportation</option>
                     <option value="Technology Services">Technology Services</option>
                     <option value="Cleaning Supplies">Cleaning Supplies</option>
+                    <option value="Construction & Public Works">Construction & Public Works</option>
+                    <option value="Medical Supplies">Medical Supplies</option>
+                    <option value="Professional Services">Professional Services</option>
                   </select>
                   <button className="bg-gray-100 text-gray-700 px-4 py-3 rounded-lg hover:bg-gray-200 transition-colors flex items-center space-x-2">
                     <Filter size={16} />
@@ -885,11 +1192,11 @@ export default function CalPolyVendorPlatform() {
                 <h4 className="font-medium text-gray-800 mb-3">Suggested Questions</h4>
                 <div className="space-y-2">
                   {[
-                    "Find small food suppliers near campus",
-                    "Calculate costs for 1000 reams of paper",
-                    "How can I improve vendor distribution?",
-                    "Show me cleaning supply vendors in SLO",
-                    "Compare shipping costs between vendors"
+                    "Find DGS certified SB vendors in Sacramento",
+                    "Check DVBE certification status and opportunities",
+                    "How to achieve AB 2019 25% SMB goal compliance?",
+                    "Show construction contractors with SB-PW certification",
+                    "Calculate Cal eProcure procurement savings"
                   ].map((suggestion, index) => (
                     <button
                       key={index}
@@ -926,10 +1233,10 @@ export default function CalPolyVendorPlatform() {
                   <h4 className="font-medium text-green-800">Platform Status</h4>
                 </div>
                 <div className="text-sm text-green-700 space-y-1">
-                  <div>• Real-time data from SBA DSBS ✓</div>
-                  <div>• Google Places integration active ✓</div>
-                  <div>• AI cost optimization running ✓</div>
-                  <div>• 847 SMB vendors discovered today ✓</div>
+                  <div>• Real-time data from Cal eProcure ✓</div>
+                  <div>• CA DGS SB/DVBE certification sync ✓</div>
+                  <div>• AB 2019 compliance monitoring active ✓</div>
+                  <div>• 1,247 DGS certified vendors tracked ✓</div>
                 </div>
               </div>
             </div>
@@ -942,8 +1249,9 @@ export default function CalPolyVendorPlatform() {
             <span className="text-sm text-gray-700">Live Data Sources:</span>
           </div>
           <div className="flex items-center space-x-4 text-xs text-gray-600">
-            <span>SBA DSBS ✓</span>
-            <span>Google Places ✓</span>
+            <span>Cal eProcure ✓</span>
+            <span>CA DGS SCPRS ✓</span>
+            <span>SB/DVBE Registry ✓</span>
             <span>SAM.gov ✓</span>
             <span>CA SOS ✓</span>
           </div>
